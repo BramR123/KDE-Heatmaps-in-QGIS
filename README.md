@@ -4,6 +4,8 @@ A PyQGIS script for creating aesthetic heatmaps in a safe way.
 This PyQGIS script creates heatmaps from .csv point data in a safe way through the use of voronoi masking. The script can be executed in the Python extension in QGIS. 
 The novelty of this methodology can be found in its adaptive data obfuscation techniques, ensuring the geo-privacy of single data points.
 
+Please check the workflow below, together with the [tutorial](https://github.com/BramR123/Heatmaps-in-QGIS/blob/main/Tutorial/README.md) to fully understand the functionality of the provided code.
+
 ## Workflow
 ![alt text](https://github.com/BramR123/Heatmaps-in-QGIS/blob/main/Workflow.jpg?raw=true)
 
