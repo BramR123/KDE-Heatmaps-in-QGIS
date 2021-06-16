@@ -14,10 +14,10 @@ The code produces numerous files while creating the heatmap. These are, for your
 
 After creating a heatmap with the test data (using a heatmap radius of 10 and a heatmap resolution of 0.1) the following heatmap is created:
 
-![Heatmap](https://github.com/BramR123/Heatmaps-in-QGIS/blob/main/test-datasets/EQ_heatmap.PNG?raw=true)
+![Heatmap](https://github.com/BramR123/Heatmaps-in-QGIS/blob/main/Tutorial/EQ_heatmap.PNG?raw=true)
 
 The original dataset however had other 'starting points' than that the heatmap is displaying. The voronoi polygons (orange) have been plotted together with the original earthquake locations (red) and the shifted earthquake locations (green) in the map below:
-![Heatmap_voronoi](https://github.com/BramR123/Heatmaps-in-QGIS/blob/main/test-datasets/EQ_heatmap_voronoi.PNG?raw=true)
+![Heatmap_voronoi](https://github.com/BramR123/Heatmaps-in-QGIS/blob/main/Tutorial/EQ_heatmap_voronoi.PNG?raw=true)
 
 ## To conclude...
 As can be seen, the points in the high density earthquake cluster around Greece, Turkey, and Iran have been shifting a little due to the voronoi masking. On the other hand, there is also a red original data point around The Maldives, that moved to just in front of the coast of Sri Lanka. This is due to the lower point density in that specific area. Now, in this case, it is indeed weird to be moving an earthquake several hundreds of kilometers. However, with more relevant datasets, the main goal of voronoi masking is to provide an adaptive obfuscation, so that it is more difficult to trace back to a single household or company. To add to that, the kernel density estimation, together with the reclassification of the data, cater for even more geo-privacy. Still, caution should be taken when publishing maps with sensitive information.
