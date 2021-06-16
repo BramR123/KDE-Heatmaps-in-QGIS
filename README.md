@@ -5,7 +5,7 @@ This PyQGIS script creates heatmaps from .csv point data in a safe way through t
 The novelty of this methodology can be found in its adaptive data obfuscation techniques, ensuring the geo-privacy of single data points.
 
 ## Workflow
-![alt text](https://github.com/BramR123/Heatmaps-in-QGIS/blob/main/Workflow.png?raw=true)
+![alt text](https://github.com/BramR123/Heatmaps-in-QGIS/blob/main/Workflow.jpg?raw=true)
 
 ## Script usage
 Several things need to be adjusted to your personal preferences before running the script. Be sure to follow the following steps BEFORE running the code:
