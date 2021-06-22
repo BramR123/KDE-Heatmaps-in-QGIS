@@ -1,5 +1,4 @@
 ##Import modules## 
-from qgis.PyQt.QtCore import Qt
 import processing
 import numpy as np 
 from osgeo import gdal, gdal_array
