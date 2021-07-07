@@ -1,5 +1,5 @@
 # Heatmaps-in-QGIS
-A PyQGIS script for creating aesthetic heatmaps in a safe way.
+A PyQGIS script for creating aesthetic heatmaps/KDE plots in a safe way.
 
 This PyQGIS script creates heatmaps from .csv point data in a safe way through the use of voronoi masking. The script can be executed in the Python extension in QGIS. 
 The novelty of this methodology can be found in its adaptive data obfuscation techniques, ensuring the geo-privacy of single data points.
