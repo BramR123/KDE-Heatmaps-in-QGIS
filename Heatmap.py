@@ -7,7 +7,7 @@ import os
 
 ##Define home directory##
 ##Please note that the folder should only contain the input csv file(s)##
-folder = "/C:/Documents/csv_folder/"
+folder = "C:/Documents/csv_folder/"
 
 ##Define desired color for the heatmap##
 ##Please note that the color list should be as long as the number of csv files in the input folder if you want to have different colors for the different heatmaps##
